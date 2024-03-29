@@ -64,11 +64,11 @@ export default function Pointer() {
     animate();
 
     const particlesConfig = {
-      radius_in: [2, 5],
+      radius_in: [1, 3],
       vx_in: [-1, 1],
       vy_in: [-1, 1],
       spread: 10,
-      life: 20,
+      life: 15,
       interval: 1,
       threshold: 3,
       derivative_ratio: 10,
@@ -103,7 +103,7 @@ export default function Pointer() {
       }
 
       particles.push(
-        new Particle(x, y, vx, vy, radius, color, life, spread, ctx)
+        new Particle(x, y, vx, vy, radius, color, life, spread, ctx),
       );
 
       // Call createParticle again after interval

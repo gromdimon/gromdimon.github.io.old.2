@@ -23,6 +23,20 @@ export default function Experience(props: ExperienceProps) {
             <p className="text-xl font-normal">{exp.date}</p>
             <p className="text-xl font-normal">{exp.location}</p>
             <p className="lg:text-xl text-lg font-normal">{exp.description}</p>
+            <div className="flex space-x-2">
+              <p className="text-xl font-normal">Links:</p>
+              {exp.links.map((link, index) => (
+                <a
+                  key={index}
+                  href={link.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-xl dark:text-dk-accent hover:text-accent dark:hover:text-dk-accent"
+                >
+                  {link.title}
+                </a>
+              ))}
+            </div>
           </div>
 
           {index !== experience.length - 1 && (

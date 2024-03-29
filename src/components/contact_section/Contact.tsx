@@ -33,20 +33,19 @@ export default function Contact({ contact, size }: ContactProps) {
       link: contact.twitter,
       link_alt: "Twitter",
     },
-    {
-      name: "rss",
-      icon: "fas fa-rss",
-      link: "/rss.xml",
-      link_alt: "RSS Feed",
-    },
+    // {
+    //   name: "rss",
+    //   icon: "fas fa-rss",
+    //   link: "/rss.xml",
+    //   link_alt: "RSS Feed",
+    // },
   ];
 
   return (
-    <div
-      className={
-        "flex flex-row items-center container justify-around"
-      }
-    >
+    <div className={"flex flex-row items-center container justify-around"}>
+      {/* <h1 className="text-secondary dark:text-dk-secondary dark:hover:text-dk-accent hover:text-accent">
+        Reach me at:
+      </h1> */}
       {socialMediaLinks.map((socialMedia, index) => (
         <a
           key={index}

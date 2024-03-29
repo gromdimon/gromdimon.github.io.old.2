@@ -5,13 +5,13 @@ date: "2024-01-15"
 layout: ../../layouts/PostLayout.astro
 description: "Learn how to exploit buffer overflows in this post!"
 
-img_path : "/buffer_overflow.png"
-img_alt : "Insert image description here"
+img_path: "/buffer_overflow.png"
+img_alt: "Insert image description here"
 ---
 
 ## Fancy way to exploit the buffer
 
-Have you ever heard of buffer overflows?[^1] They are a common vulnerability in software that can be exploited to gain unauthorized access to a system. In this post, we will explore how ``buffer overflows`` work and how they can be exploited.
+Have you ever heard of buffer overflows?[^1] They are a common vulnerability in software that can be exploited to gain unauthorized access to a system. In this post, we will explore how `buffer overflows` work and how they can be exploited.
 
 ### What is a buffer overflow?
 
