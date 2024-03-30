@@ -14,11 +14,11 @@ const recentPosts = posts
 ---
 
 <div class="flex flex-col lg:flex-row justify-evenly">
-  <header class="mb-8">
+  <div class="w-full lg:w-1/2 mr-8">
     <h1 class="mb-2">To find out more about my projects - Read my posts!</h1>
     <h2 class="mb-4 text-text dark:text-dk-text">Beyond tech</h2>
-  </header>
-  <div>
+  </div>
+  <div class="w-full lg:w-1/2">
     {
       recentPosts.map((post, index) => (
         <div class="mb-8">

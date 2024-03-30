@@ -14,7 +14,7 @@ export default function Education(props: EducationProps) {
     <div className="flex flex-col space-y-4 lg:w-1/2 mx-4">
       <h1 className="text-3xl font-bold">Education</h1>
       {education.map((edu, index) => (
-        <div className="flex flex-col space-y-2 relative" key={index}>
+        <div className="flex flex-col space-y-2 relative mx-4" key={index}>
           <div className="flex items-center space-x-2">
             <i className="fas fa-graduation-cap text-2xl text-secondary dark:text-dk-secondary dark:hover:text-dk-accent hover:text-accent z-10"></i>
             <h2 className="text-xl font-semibold">{edu.title}</h2>
