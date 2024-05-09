@@ -90,7 +90,10 @@ export default function Search({ posts }: any) {
             onChange={(e) => query(e.target.value)}
           />
         </div>
-        <div className="flex flex-col space-y-4 mt-4">
+        <div
+          className="flex flex-col space-y-4 mt-4 overflow-y-auto"
+          style={{ maxHeight: "calc(100% - 64px)" }}
+        >
           <ul className="flex flex-col space-y-2">
             {searchResults.map((result: any, index: number) => (
               <li

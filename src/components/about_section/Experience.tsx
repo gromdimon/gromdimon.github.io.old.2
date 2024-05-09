@@ -23,7 +23,7 @@ export default function Experience(props: ExperienceProps) {
             <p className="text-xl font-normal">{exp.date}</p>
             <p className="text-xl font-normal">{exp.location}</p>
             <p className="lg:text-xl text-lg font-normal">{exp.description}</p>
-            <div className="flex space-x-2">
+            <div className="flex flex-col md:flex-row lg:flex-row space-x-2">
               <p className="text-xl font-normal">Links:</p>
               {exp.links.map((link, index) => (
                 <a
