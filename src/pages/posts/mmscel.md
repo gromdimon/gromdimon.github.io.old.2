@@ -5,7 +5,7 @@ date: "2022-11-20"
 layout: ../../layouts/PostLayout.astro
 description: "Engaged in the development of various Machine Learning models to solve multimodal challenges, focusing on integrating diverse data types."
 
-img_path: "/mmscel/header.png"
+img_path: "/mmscel/header.jpg"
 img_alt: "MMSCel"
 ---
 

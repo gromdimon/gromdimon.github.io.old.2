@@ -5,7 +5,7 @@ date: "2022-07-23"
 layout: ../../layouts/PostLayout.astro
 description: "Conducted eco-diversity research, analyzing environmental data to assess biodiversity"
 
-img_path: "/bsu_internship/header.png"
+img_path: "/bsu_internship/header.jpg"
 img_alt: "Internship at BSU"
 ---
 

@@ -103,7 +103,7 @@ export const info = {
       link: "posts/bellm",
       tech: ["Python", "PyTorch", "NumPy", "Pydantic"],
       img_alt: "beLLM Project",
-      img_path: "/bellm/header.png",
+      img_path: "/bellm/header.jpg",
     },
     {
       title: "LLM Bootcamp",
@@ -114,7 +114,7 @@ export const info = {
       link: "posts/llm-bootcamp",
       tech: ["Python", "FastAPI", "React", "GPT-3"],
       img_alt: "LLM Bootcamp Project",
-      img_path: "llm_bootcamp/header.png",
+      img_path: "llm_bootcamp/header.jpg",
     },
     {
       title: "MmSCel - Kaggle Contest",
@@ -125,7 +125,7 @@ export const info = {
       link: "posts/mmscel",
       tech: ["TensorFlow", "PyTorch", "Scikit-learn", "Pandas", "NumPy"],
       img_alt: "MmSCel Project",
-      img_path: "mmscel/header.png",
+      img_path: "mmscel/header.jpg",
     },
     {
       title: "BCM_HGSC Hackathon",
@@ -147,7 +147,7 @@ export const info = {
       link: "posts/bsu-internship",
       tech: ["R", "ArcGIS"],
       img_alt: "BSU Internship Project",
-      img_path: "bsu_internship/header.png",
+      img_path: "bsu_internship/header.jpg",
     },
     {
       title: "FeatureCloud Hackathon",

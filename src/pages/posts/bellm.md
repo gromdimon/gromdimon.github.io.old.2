@@ -5,7 +5,7 @@ date: "2024-10-01"
 layout: ../../layouts/PostLayout.astro
 description: "The beLLM project pioneers the development of a Belarusian Large Language Model (LLM), leveraging the rich literary heritage of Belarus to train a model capable of understanding and generating Belarusian text."
 
-img_path: "/bellm/header.png"
+img_path: "/bellm/header.jpg"
 img_alt: "BeLLM - A Belarusian LLM"
 ---
 

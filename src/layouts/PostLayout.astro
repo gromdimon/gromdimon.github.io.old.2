@@ -43,7 +43,8 @@ const { title, date, img_path, img_alt } = frontmatter;
           class="text-sm lg:text-base px-4 lg:px-0 flex lg:flex-row flex-col items-center justify-between gap-2"
         >
           <span>{date}</span>
-          <a href="/posts" class="hover:underline">Back to posts</a>
+
+          <!-- <a href="/projects" class="text-lg w-full hover:underline">Go Back to Projects</a> -->
         </p>
       </div>
       {
@@ -72,6 +73,7 @@ const { title, date, img_path, img_alt } = frontmatter;
           <slot />
         </div>
       </div>
+
 
       <div class="w-full lg:w-1/4 m-auto mt-12 max-w-screen-sm">
         <div class="p-4 border-t border-b md:border md:rounded">

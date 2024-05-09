@@ -58,11 +58,11 @@ export default function ProjectCarousel(props: ProjectCarouselProps) {
   var settings = {
     dots: true,
     infinite: true,
-    speed: 1000,
+    speed: 2000,
     lazyLoad: true,
-    autoplay: true,
+    autoplay: false,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 2,
     initialSlide: 0,
     nextArrow: <CustomArrow />,
     prevArrow: <CustomArrow left />,
@@ -99,7 +99,7 @@ export default function ProjectCarousel(props: ProjectCarouselProps) {
     <>
       <h1 className="text-3xl font-bold text-center mt-10 mb-10">
         Explore my{" "}
-        <a href="/posts" className="underline decoration-wavy">
+        <a href="/projects" className="underline decoration-wavy">
           Projects
         </a>{" "}
         🚀

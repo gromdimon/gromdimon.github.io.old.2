@@ -5,7 +5,7 @@ date: "2022-10-10"
 layout: ../../layouts/PostLayout.astro
 description: "Developed a full-stack AI assistant utilizing Natural Language Processing (NLP) and Large Language Models (LLMs). Integrated the assistant with web technologies for real-time user interaction."
 
-img_path: "/llm_bootcamp/header.png"
+img_path: "/llm_bootcamp/header.jpg"
 img_alt: "LLM Bootcamp"
 ---
 
