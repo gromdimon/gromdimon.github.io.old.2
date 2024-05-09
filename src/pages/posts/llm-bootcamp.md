@@ -12,7 +12,8 @@ img_alt: "LLM Bootcamp"
 ## Introduction
 
 ### LLM Bootcamp
+
 - **[Bootcamp participant](https://fullstackdeeplearning.com/llm-bootcamp/)**\
-Oct. 2023, Remote\
-Developed a full-stack AI assistant utilizing Natural Language Processing (NLP) and Large Language Models (LLMs). Integrated the assistant with web technologies for real-time user interaction.
+  Oct. 2023, Remote\
+  Developed a full-stack AI assistant utilizing Natural Language Processing (NLP) and Large Language Models (LLMs). Integrated the assistant with web technologies for real-time user interaction.
   - **Technologies Used:** Python, FastAPI for backend, React for frontend, GPT-3 for NLP.

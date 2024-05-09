@@ -3,34 +3,43 @@ const { publications, awards } = Astro.props;
 ---
 
 <div class="flex flex-col lg:flex-row justify-evenly">
-    <div class="w-full lg:w-1/2 mr-8">
-        <h1 class="mb-8">Publications:</h1>
-        {
-          publications.map((publication, index) => (
-            <div class="mb-8">
-                <h2 class="mb-2">
-                  <a href={publication.url} class="text-accent dark:text-dk-accent hover:text-secondary dark:hover:text-dk-secondary">
-                    {publication.title}
-                    </a>
-                </h2>
-                <p>{publication.publisher}</p>
-                <p>{publication.date}</p>
-            </div>
-        ))}
-    </div>
+  <div class="w-full lg:w-1/2 mr-8">
+    <h1 class="mb-8">Publications:</h1>
+    {
+      publications.map((publication, index) => (
+        <div class="mb-8">
+          <h2 class="mb-2">
+            <span class="before:content-['•'] before:mr-2 before:text-accent dark:before:text-dk-accent" />
+            <a
+              href={publication.url}
+              class="text-accent dark:text-dk-accent hover:text-secondary dark:hover:text-dk-secondary"
+            >
+              {publication.title}
+            </a>
+          </h2>
+          <p>{publication.publisher}</p>
+          <p>{publication.date}</p>
+        </div>
+      ))
+    }
+  </div>
 
-    <div class="w-full lg:w-1/2">
-      <h1 class="mb-8">Honors/ Awards/ Achievements:</h1>
-        {
-            awards.map((award, index) => (
-            <div class="mb-8">
-                <h2 class="mb-2">
-                    {award.title}
-                </h2>
-                <p>{award.description}</p>
-                <p>{award.date}</p>
-            </div>
-            ))
-        }
-    </div>
+  <!-- Vertical bar between two sections -->
+  <div class="hidden lg:block w-1 bg-accent mr-8 rounded-full"></div>
+
+  <div class="w-full lg:w-1/2">
+    <h1 class="mb-8">Honors/ Awards/ Achievements:</h1>
+    {
+      awards.map((award, index) => (
+        <div class="mb-8">
+          <h2 class="mb-2">
+            <span class="before:content-['•'] before:mr-2 before:text-accent dark:before:text-dk-accent" />
+            {award.title}
+          </h2>
+          <p>{award.description}</p>
+          <p>{award.date}</p>
+        </div>
+      ))
+    }
+  </div>
 </div>

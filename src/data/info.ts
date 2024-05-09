@@ -230,23 +230,26 @@ export const info = {
 
   publications: [
     {
-      title: "Harnessing Transcriptomic Signals for Amyotrophic Lateral Sclerosis to Identify Novel Drugs and Enhance Risk Prediction",
+      title:
+        "Harnessing Transcriptomic Signals for Amyotrophic Lateral Sclerosis to Identify Novel Drugs and Enhance Risk Prediction",
       publisher: "medRxiv",
       url: "https://www.medrxiv.org/content/10.1101/2023.01.18.23284589v2",
       date: "2023",
     },
     {
-      title: "Promoter motif inference and annotation of promoter sequences in bacterial genomes based on the analysis of structures of alternative sigma factor-promoter complexes",
+      title:
+        "Promoter motif inference and annotation of promoter sequences in bacterial genomes based on the analysis of structures of alternative sigma factor-promoter complexes",
       publisher: "BGRSSB Conference",
       url: "https://disk.icgbio.ru/s/ejG5gRfYGRpML25",
       date: "2022",
     },
     {
-      title: "Bacterial promoter identification based on 3D structures of alternative sigma-factors",
+      title:
+        "Bacterial promoter identification based on 3D structures of alternative sigma-factors",
       publisher: "CTDA Conference",
       url: "https://ctda.rfe.by/media/docs/2022/konf/CTDA-2022-matherials-epub-before-print.pdf",
       date: "2022",
-    }
+    },
   ],
 
   awards: [
@@ -257,14 +260,15 @@ export const info = {
     },
     {
       title: "MIPT biological Olympiad",
-      description: "2 degree diploma of the final stage (Top 20 in the overall standings)",
+      description:
+        "2 degree diploma of the final stage (Top 20 in the overall standings)",
       date: "2021",
     },
     {
       title: "Belarusian biological Olympiad",
       description: "2 degree diploma of the republic stage (Top 10 in Belarus)",
       date: "2021",
-    }
+    },
   ],
 
   contact: {

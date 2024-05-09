@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 
 import Slider from "react-slick";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -51,6 +52,9 @@ export default function ProjectCarousel(props: ProjectCarouselProps) {
   const { projects } = props;
   const initialMount = React.useRef(true);
 
+  // Assuming the latest project is the last one in the array
+  const latestProject = projects[projects.length - 1];
+
   var settings = {
     dots: true,
     infinite: true,
@@ -93,7 +97,32 @@ export default function ProjectCarousel(props: ProjectCarouselProps) {
 
   return (
     <>
-      <h1 className="text-3xl font-bold text-center mt-10 mb-5">Explore my Projects:</h1>
+      <h1 className="text-3xl font-bold text-center mt-10 mb-10">
+        Explore my{" "}
+        <a href="/posts" className="underline decoration-wavy">
+          Projects
+        </a>{" "}
+        🚀
+      </h1>
+
+      {/* <div className="flex flex-col lg:flex-row justify-center items-center mt-10 mb-10">
+        <div className="w-full lg:w-3/4 p-5">
+          <LazyLoadImage
+            className="h-52 w-full object-cover"
+            src={latestProject.img_path}
+            alt={latestProject.img_alt}
+            width="100%"
+            effect="blur"
+          />
+        </div>
+        <div className="w-full lg:w-1/4 p-5">
+          <h2 className="text-2xl font-bold mb-3">{latestProject.title}</h2>
+          <p className="mb-2 text-gray-700">{latestProject.description}</p>
+          <p className="text-sm text-gray-600">Published on: {latestProject.date}</p>
+          <a href={latestProject.link} className="text-blue-500 hover:text-blue-700 transition-colors duration-300">Read more</a>
+        </div>
+      </div> */}
+
       <div className="flex justify-center flex-col items-center">
         <div className="slider-container w-5/6">
           <Slider {...settings}>

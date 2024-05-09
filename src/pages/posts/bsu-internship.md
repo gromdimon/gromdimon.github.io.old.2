@@ -12,7 +12,8 @@ img_alt: "Internship at BSU"
 ## Introduction
 
 ### Internship at BSU
+
 - **[Biologist intern](https://bsu.by/en/)**, Belarusian State University\
-Jul. 2022, Minsk, Belarus\
-Conducted eco-diversity research, analyzing environmental data to assess biodiversity.
+  Jul. 2022, Minsk, Belarus\
+  Conducted eco-diversity research, analyzing environmental data to assess biodiversity.
   - **Technologies Used:** R for statistical analysis; ArcGIS for geospatial analysis.
