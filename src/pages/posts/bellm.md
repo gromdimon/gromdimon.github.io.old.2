@@ -11,7 +11,7 @@ img_alt: "BeLLM - A Belarusian LLM"
 
 # beLLM - A Belarusian Large Language Model (LLM)
 
-![Header Image](/public/bellm/road.jpg)
+![Header Image](/bellm/road.jpg)
 
 > "Language is the road map of a culture. It tells you where its people come from and where they are going." - Rita Mae Brown
 

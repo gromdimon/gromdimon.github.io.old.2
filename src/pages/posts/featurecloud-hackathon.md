@@ -11,7 +11,7 @@ img_alt: "FeatureCloud Hackathon"
 
 # FeatureCloud Hackathon
 
-![Header Image](/public/featurecloud_hackathon/rocks.jpg)
+![Header Image](/featurecloud_hackathon/rocks.jpg)
 
 > "The best way to predict the future is to invent it." - Alan Kay
 

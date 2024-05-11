@@ -11,7 +11,7 @@ img_alt: "BCM HGSC Hackathon"
 
 # BCM_HGSC Hackathon
 
-![Header Image](/public/bcm_hackathon/scale.jpg)
+![Header Image](/bcm_hackathon/scale.jpg)
 
 > "Innovation distinguishes between a leader and a follower." - Steve Jobs
 

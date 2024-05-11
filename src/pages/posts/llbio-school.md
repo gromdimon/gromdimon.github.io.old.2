@@ -11,7 +11,7 @@ img_alt: "Internship at LLBio-IT School"
 
 # Internship at LLBio-IT School – Nyberman
 
-![Header Image](/public/llbio_school/learn.jpg)
+![Header Image](/llbio_school/learn.jpg)
 
 > "Data is the new science. Big Data holds the answers." - Pat Gelsinger
 

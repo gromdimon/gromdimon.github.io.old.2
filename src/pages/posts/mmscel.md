@@ -11,7 +11,7 @@ img_alt: "MMSCel"
 
 # MmSCel Kaggle Contest
 
-![Header Image](/public/mmscel/water.jpg)
+![Header Image](/mmscel/water.jpg)
 
 > "Understanding the intricate mechanics of cells will pave the way for breakthroughs in personalized medicine." - Anonymous
 

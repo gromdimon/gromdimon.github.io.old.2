@@ -11,7 +11,7 @@ img_alt: "Neurohack Hackathon"
 
 # Neurohack Hackathon
 
-![Header Image](/public/neurohack_hackathon/landscape.jpg)
+![Header Image](/neurohack_hackathon/landscape.jpg)
 
 > "The brain is the most complex organ in the universe, and it is right behind the nose." - Michel Jouvet
 

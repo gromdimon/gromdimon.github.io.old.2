@@ -11,7 +11,7 @@ img_alt: "Wat To Do Telegram bot"
 
 # Wat To Do Telegram Bot
 
-![Header Image](/public/wat_bot/bot.jpg)
+![Header Image](/wat_bot/bot.jpg)
 
 > "The way to get started is to quit talking and begin doing." - Walt Disney
 

@@ -11,7 +11,7 @@ img_alt: "Internship at BSU"
 
 # Internship at Belarusian State University
 
-![Header Image](/public/bsu_internship/nature.jpg)
+![Header Image](/bsu_internship/nature.jpg)
 
 > "In every walk with nature, one receives far more than he seeks." - John Muir
 

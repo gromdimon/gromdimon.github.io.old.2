@@ -11,7 +11,7 @@ img_alt: "LLM Bootcamp"
 
 # LLM Bootcamp
 
-![Header Image](/public/llm_bootcamp/robot.jpg)
+![Header Image](/llm_bootcamp/robot.jpg)
 
 > "Artificial Intelligence is the new electricity." - Andrew Ng
 

@@ -11,7 +11,7 @@ img_alt: "Bioactivity prediction project"
 
 # Bioactivity Prediction Project
 
-![Header Image](/public/bioactivity_prediction/start.jpg)
+![Header Image](/bioactivity_prediction/start.jpg)
 
 > "The art of medicine consists of amusing the patient while nature cures the disease." - Voltaire
 

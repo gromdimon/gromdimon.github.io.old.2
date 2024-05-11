@@ -11,7 +11,7 @@ img_alt: "EesyFood project"
 
 # EesyFood Project
 
-![Header Image](/public/eesyfood/startup.jpg)
+![Header Image](/eesyfood/startup.jpg)
 
 > "One cannot think well, love well, sleep well, if one has not dined well." - Virginia Woolf
 
