@@ -58,7 +58,7 @@ export default function ProjectCarousel(props: ProjectCarouselProps) {
   var settings = {
     dots: true,
     infinite: true,
-    speed: 2000,
+    speed: 1000,
     lazyLoad: true,
     autoplay: false,
     slidesToShow: 3,
