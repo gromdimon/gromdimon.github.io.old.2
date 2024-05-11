@@ -19,7 +19,7 @@ export const info = {
         title: "B.Sc. in Bioinformatics",
         date: "2022 - Present",
         location: "Free University of Berlin",
-        gpa: "1.3/5",
+        gpa: "1.2/5",
         description: `Thesis coming soon... 
         Knowldedge gained: C++, R, Algorithms, Linear Algebra, Statistics, Machine Learning`,
       },
