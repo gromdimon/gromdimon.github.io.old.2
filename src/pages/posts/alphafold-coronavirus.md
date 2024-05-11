@@ -11,7 +11,7 @@ img_alt: "AlphaFold2 and Coronavirus"
 
 # AlphaFold2 for Coronavirus
 
-![Header Image](alphafold_coronavirus/deepmind_header.jpg)
+![Header Image](/public/alphafold_coronavirus/deepmind_header.jpg)
 
 > "We cannot solve our problems with the same thinking we used when we created them." - Albert Einstein
 
@@ -43,7 +43,7 @@ I configured the Azure cluster, set up experiment scripts, and defined dependenc
 ## Results
 The experiment successfully predicted the structure of the Spike protein's receptor binding domain. The results were visualized using 3Dmol, providing a clear view of the protein's configuration. The model's accuracy was impressive, with the predicted structure closely matching the actual protein. The detailed analysis and visualization steps are available in my [GitHub repository](https://github.com/gromdimon/AlphaFold_Glycoprotein). The image below shows the structure of the Omicron variant's Spike protein, which was accurately predicted by the model for one part of the strains.
 
-![Omicron Spike Protein Structure](alphafold_coronavirus/omicron_protein.png)
+![Omicron Spike Protein Structure](/public/alphafold_coronavirus/omicron_protein.png)
 
 ## Technology Learned/Used
 Throughout this project, I deepened my understanding of:
