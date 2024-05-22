@@ -9,8 +9,8 @@ export const info = {
   cv: "/resume.pdf",
 
   about: {
-    description: `I'm a full stack developer with a passion for AI Engineering. 
-    Coming from bioinformatics background, I have a strong foundation in Big Data and responsible Software Development.
+    description: `I'm a full stack developer specializing in the bioinformatics field with a passion for AI Engineering. 
+    Coming from bioinformatics background, I have a strong foundation in Complex Data and responsible Software Development.
     Combining my love for coding and AI, I'm always looking for new ways to innovate and push the boundaries of technology (often in my head).
     Outside of coding, I'm enjoing sabre fencing and hicking in the wildlife.
     Interested in working together? Feel free to reach out!`,
