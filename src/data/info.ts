@@ -230,6 +230,12 @@ export const info = {
 
   publications: [
     {
+      title: "REEV: review, evaluate and explain variants.",
+      publisher: "Nucleic Acids Research",
+      url: "https://doi.org/10.1093/nar/gkae366",
+      date: "2024",
+    },
+    {
       title:
         "Harnessing Transcriptomic Signals for Amyotrophic Lateral Sclerosis to Identify Novel Drugs and Enhance Risk Prediction",
       publisher: "medRxiv",
@@ -275,6 +281,6 @@ export const info = {
     email: "grom.dima.grom@gmail.com",
     linkedin: "https://www.linkedin.com/in/gromdimon/",
     github: "https://www.github.com/gromdimon/",
-    twitter: "https://twitter.com/grom_dimon/",
+    twitter: "https://x.com/grom_dimon/",
   },
 };
