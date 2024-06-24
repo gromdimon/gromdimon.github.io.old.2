@@ -95,6 +95,17 @@ export const info = {
 
   projects: [
     {
+      title: "Brain Tumor Segmentation",
+      date: "Mar. 2024 - May. 2024",
+      description:
+        "Developing a lightweight deep learning model for brain tumor segmentation using MRI data, aiming to enable on-device inference.",
+      // link: "https://github.com/gromdimon/brain-segment",
+      link: "posts/brain-segment",
+      tech: ["Python", "PyTorch", "NumPy", "Monai"],
+      img_alt: "Brain Tumor Segmentation Project",
+      img_path: "brain_segment/header.jpg",
+    },
+    {
       title: "beLLM - A Belarusian LLM",
       date: "Dec. 2023 - Jan. 2024",
       description:

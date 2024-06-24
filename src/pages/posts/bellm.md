@@ -1,6 +1,6 @@
 ---
 title: "BeLLM - A Belarusian LLM"
-date: "2024-10-01"
+date: "2024-01-10"
 
 layout: ../../layouts/PostLayout.astro
 description: "The beLLM project pioneers the development of a Belarusian Large Language Model (LLM), leveraging the rich literary heritage of Belarus to train a model capable of understanding and generating Belarusian text."
