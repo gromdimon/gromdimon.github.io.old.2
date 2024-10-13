@@ -1,7 +1,6 @@
 export const info = {
   name: "Dzmitry Hramyka",
-  brief_description:
-    "I'm a full-stack developer at the exciting crossroads of AI and bioinformatics",
+  brief_description: "I'm a full-stack engineer with a passion for AI 🚀",
   role: "Full Stack Developer",
   picture: "/photo.png",
   picture_alt: "Dzmitry Hramyka",
@@ -9,10 +8,10 @@ export const info = {
   cv: "/resume.pdf",
 
   about: {
-    description: `I'm a full stack developer specializing in the bioinformatics field with a passion for AI Engineering. 
+    description: `I'm a full stack developer specializing in the AI Engineering. 
     Coming from bioinformatics background, I have a strong foundation in Complex Data and responsible Software Development.
-    Combining my love for coding and AI, I'm always looking for new ways to innovate and push the boundaries of technology (often in my head).
-    Outside of coding, I'm enjoing sabre fencing and hicking in the wildlife.
+    Combining my love for coding and AI, I'm always looking for new ways to innovate and push the boundaries of technology.
+    Outside of coding, I'm enjoing sabre fencing and hiking.
     Interested in working together? Feel free to reach out!`,
     education: [
       {
@@ -20,8 +19,8 @@ export const info = {
         date: "2022 - Present",
         location: "Free University of Berlin",
         gpa: "1.2/4",
-        description: `Thesis coming soon... 
-        Knowldedge gained: C++, R, Algorithms, Linear Algebra, Statistics, Machine Learning`,
+        description: `Thesis title: "Automated Classification of Sequence Variants According to ACMG Criteria"
+        Knowldedge gained: C++, R, Algorithms, Linear Algebra, Statistics, Machine Learning, Biochemistry`,
       },
       {
         title: "B.Sc. in Biotechnology",
@@ -35,7 +34,20 @@ export const info = {
     experience: [
       {
         title: "Software Engineer",
-        date: "08.2023 - Present",
+        date: "10.2024 - Present",
+        location: "Axioma AI",
+        description: `Co-Founder and Software Engineer at Axioma AI. Building custom AI solutions 
+        for mid-sized companies in data-heavy industries.`,
+        links: [
+          {
+            title: "Axioma AI",
+            url: "https://axioma-ai.com/",
+          },
+        ],
+      },
+      {
+        title: "Software Engineer",
+        date: "08.2023 - 09.2024",
         location: "Core Unit Bioinformatics (CUBI)",
         description: `Started as a backend developer, turned into a full stack developer.
           Worked on projects: sodar-core, sodar-server, reev, autoPVS1. 
@@ -44,15 +56,19 @@ export const info = {
           For more information follow the links.`,
         links: [
           {
-            title: "sodar-core",
+            title: "AutoACMG",
+            url: "https://github.com/bihealth/auto-acmg",
+          },
+          {
+            title: "SODAR Core",
             url: "https://github.com/bihealth/sodar-core",
           },
           {
-            title: "sodar-server",
+            title: "SODAR Server",
             url: "https://github.com/bihealth/sodar-server",
           },
           {
-            title: "reev",
+            title: "REEV",
             url: "https://github.com/bihealth/reev",
           },
         ],
@@ -240,6 +256,13 @@ export const info = {
   ],
 
   publications: [
+    {
+      title:
+        "AutoACMG: automated classification of sequence variants according to ACMG criteria.",
+      publisher: "Refubium",
+      url: "http://dx.doi.org/10.17169/refubium-44421",
+      date: "2024",
+    },
     {
       title: "REEV: review, evaluate and explain variants.",
       publisher: "Nucleic Acids Research",
